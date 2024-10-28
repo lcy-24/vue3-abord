@@ -14,8 +14,8 @@ const logo = computed(() => preferences.logo.source);
   <AuthPageLayout
     :app-name="appName"
     :logo="logo"
-    :page-description="$t('authentication.pageDesc')"
-    :page-title="$t('authentication.pageTitle')"
+    :page-description="$t('从头开始的vue3学习之路')"
+    :page-title="$t('自我学习的后台管理系统')"
   >
     <!-- 自定义工具栏 -->
     <!-- <template #toolbar></template> -->
